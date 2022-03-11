@@ -1,0 +1,17 @@
+.controls {
+  display: flex;
+  > button {
+    font-size: 1em;
+    padding: 0.5em;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+}
+
+.reset {
+  background-color: rgb(255, 182, 182);
+  &:hover {
+    background-color: rgb(255, 148, 148);
+  }
+}
